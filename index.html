@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style type="text/css" data-tag-name="trix-editor">
+    trix-editor:empty:not(:focus)::before {
+      content: attr(placeholder);
+      color: graytext;
+    }
+
+    trix-editor a[contenteditable="false"] {
+      cursor: text;
+    }
+
+    trix-editor img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    trix-editor [data-trix-attachment] figcaption textarea {
+      resize: none;
+    }
+
+    trix-editor
+      [data-trix-attachment]
+      figcaption
+      textarea.trix-autoresize-clone {
+      position: absolute;
+      left: -9999px;
+      max-height: 0px;
+    }
+
+    trix-editor
+      [data-trix-attachment]
+      figcaption[data-trix-placeholder]:empty::before {
+      content: attr(data-trix-placeholder);
+      color: graytext;
+    }
+
+    trix-editor [data-trix-cursor-target] {
+      display: inline-block !important;
+      width: 1px !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      border: none !important;
+    }
+
+    trix-editor [data-trix-cursor-target="left"] {
+      vertical-align: top !important;
+      margin-left: -1px !important;
+    }
+
+    trix-editor [data-trix-cursor-target="right"] {
+      vertical-align: bottom !important;
+      margin-right: -1px !important;
+    }
+    trix-editor {
+      display: block;
+    }
+  </style>
+  <style type="text/css" data-tag-name="trix-toolbar">
+    trix-toolbar {
+      white-space: nowrap;
+    }
+
+    trix-toolbar [data-trix-dialog] {
+      display: none;
+    }
+
+    trix-toolbar [data-trix-dialog][data-trix-active] {
+      display: block;
+    }
+
+    trix-toolbar [data-trix-dialog] [data-trix-validate]:invalid {
+      background-color: #ffdddd;
+    }
+    trix-toolbar {
+      display: block;
+    }
+  </style>
+  <title>Course Certificate</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://dq0un14k3iie7.cloudfront.net/assets/gl-favicon-v1-2-f955f24bac9c3d7d25b53000f0e13bee0568b3df01356310b62b6ac86fa1a926.svg"
+    rel="shortcut icon"
+    type="image/vnd.microsoft.icon"
+  />
+  <link
+    data-turbolinks-track="true"
+    href="https://dq0un14k3iie7.cloudfront.net/assets/application-732506255a1ebdf24e78f126b5a4de4614805a489a21c6f3aeb43eac1903605e.css"
+    media="all"
+    rel="stylesheet"
+  />
+  <link
+    data-turbolinks-track="true"
+    href="https://dq0un14k3iie7.cloudfront.net/assets/certificates-5a4f6ea9b3e538f3e20b3361d5678e7a9af0bfb9b84a9ec58e1d2e9819e212a1.css"
+    media="all"
+    rel="stylesheet"
+  />
+
+  <script
+    type="text/javascript"
+    async=""
+    src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+  ></script>
+  <script
+    data-turbolinks-track="true"
+    src="https://dq0un14k3iie7.cloudfront.net/assets/application-d635a1834ade7dff1163a6f04245d3413e878f615299b8f6e76c51de0a884093.js"
+  ></script>
+
+  <script
+    data-turbolinks-track="true"
+    src="https://dq0un14k3iie7.cloudfront.net/assets/certificates-a71984e577b76fe26500ffb82d1b5438f826dca9379a48f6fcb660833d564776.js"
+  ></script>
+
+  <meta content="authenticity_token" name="csrf-param" />
+  <meta
+    content="CysL6ZXtZxkoThhkPXcGmiI6Om53hn+0ujN+ategVCM="
+    name="csrf-token"
+  />
+
+  <!-- start Rollbar -->
+  <script>
+    console.log("Rollbar!!!");
+
+    var _rollbarConfig = {
+      accessToken: "9f626ee0243e4a128e0ea52bedcffd57",
+      captureUncaught: true,
+      captureUnhandledRejections: true,
+      payload: {
+        environment: "production",
+      },
+    };
+    // Rollbar Snippet
+    !(function (r) {
+      var e = {};
+      function o(n) {
+        if (e[n]) return e[n].exports;
+        var t = (e[n] = { i: n, l: !1, exports: {} });
+        return r[n].call(t.exports, t, t.exports, o), (t.l = !0), t.exports;
+      }
+      (o.m = r),
+        (o.c = e),
+        (o.d = function (r, e, n) {
+          o.o(r, e) || Object.defineProperty(r, e, { enumerable: !0, get: n });
+        }),
+        (o.r = function (r) {
+          "undefined" != typeof Symbol &&
+            Symbol.toStringTag &&
+            Object.defineProperty(r, Symbol.toStringTag, { value: "Module" }),
+            Object.defineProperty(r, "__esModule", { value: !0 });
+        }),
+        (o.t = function (r, e) {
+          if ((1 & e && (r = o(r)), 8 & e)) return r;
+          if (4 & e && "object" == typeof r && r && r.__esModule) return r;
+          var n = Object.create(null);
+          if (
+            (o.r(n),
+            Object.defineProperty(n, "default", { enumerable: !0, value: r }),
+            2 & e && "string" != typeof r)
+          )
+            for (var t in r)
+              o.d(
+                n,
+                t,
+                function (e) {
+                  return r[e];
+                }.bind(null, t)
+              );
+          return n;
+        }),
+        (o.n = function (r) {
+          var e =
+            r && r.__esModule
+              ? function () {
+                  return r.default;
+                }
+              : function () {
+                  return r;
+                };
+          return o.d(e, "a", e), e;
+        }),
+        (o.o = function (r, e) {
+          return Object.prototype.hasOwnProperty.call(r, e);
+        }),
+        (o.p = ""),
+        o((o.s = 0));
+    })([
+      function (r, e, o) {
+        "use strict";
+        var n = o(1),
+          t = o(5);
+        (_rollbarConfig = _rollbarConfig || {}),
+          (_rollbarConfig.rollbarJsUrl =
+            _rollbarConfig.rollbarJsUrl ||
+            "https://cdn.rollbar.com/rollbarjs/refs/tags/v2.23.0/rollbar.min.js"),
+          (_rollbarConfig.async =
+            void 0 === _rollbarConfig.async || _rollbarConfig.async);
+        var a = n.setupShim(window, _rollbarConfig),
+          l = t(_rollbarConfig);
+        (window.rollbar = n.Rollbar),
+          a.loadFull(
+            window,
+            document,
+            !_rollbarConfig.async,
+            _rollbarConfig,
+            l
+          );
+      },
+      function (r, e, o) {
+        "use strict";
+        var n = o(2),
+          t = o(3);
+        function a(r) {
+          return function () {
+            try {
+              return r.apply(this, arguments);
+            } catch (r) {
+              try {
+                console.error("[Rollbar]: Internal error", r);
+              } catch (r) {}
+            }
+          };
+        }
+        var l = 0;
+        function i(r, e) {
+          (this.options = r), (this._rollbarOldOnError = null);
+          var o = l++;
+          (this.shimId = function () {
+            return o;
+          }),
+            "undefined" != typeof window &&
+              window._rollbarShims &&
+              (window._rollbarShims[o] = { handler: e, messages: [] });
+        }
+        var s = o(4),
+          d = function (r, e) {
+            return new i(r, e);
+          },
+          c = function (r) {
+            return new s(d, r);
+          };
+        function u(r) {
+          return a(function () {
+            var e = this,
+              o = Array.prototype.slice.call(arguments, 0),
+              n = { shim: e, method: r, args: o, ts: new Date() };
+            window._rollbarShims[this.shimId()].messages.push(n);
+          });
+        }
+        (i.prototype.loadFull = function (r, e, o, n, t) {
+          var l = !1,
+            i = e.createElement("script"),
+            s = e.getElementsByTagName("script")[0],
+            d = s.parentNode;
+          (i.crossOrigin = ""),
+            (i.src = n.rollbarJsUrl),
+            o || (i.async = !0),
+            (i.onload = i.onreadystatechange =
+              a(function () {
+                if (
+                  !(
+                    l ||
+                    (this.readyState &&
+                      "loaded" !== this.readyState &&
+                      "complete" !== this.readyState)
+                  )
+                ) {
+                  i.onload = i.onreadystatechange = null;
+                  try {
+                    d.removeChild(i);
+                  } catch (r) {}
+                  (l = !0),
+                    (function () {
+                      var e;
+                      if (void 0 === r._rollbarDidLoad) {
+                        e = new Error("rollbar.js did not load");
+                        for (
+                          var o, n, a, l, i = 0;
+                          (o = r._rollbarShims[i++]);
+
+                        )
+                          for (o = o.messages || []; (n = o.shift()); )
+                            for (a = n.args || [], i = 0; i < a.length; ++i)
+                              if ("function" == typeof (l = a[i])) {
+                                l(e);
+                                break;
+                              }
+                      }
+                      "function" == typeof t && t(e);
+                    })();
+                }
+              })),
+            d.insertBefore(i, s);
+        }),
+          (i.prototype.wrap = function (r, e, o) {
+            try {
+              var n;
+              if (
+                ((n =
+                  "function" == typeof e
+                    ? e
+                    : function () {
+                        return e || {};
+                      }),
+                "function" != typeof r)
+              )
+                return r;
+              if (r._isWrap) return r;
+              if (
+                !r._rollbar_wrapped &&
+                ((r._rollbar_wrapped = function () {
+                  o && "function" == typeof o && o.apply(this, arguments);
+                  try {
+                    return r.apply(this, arguments);
+                  } catch (o) {
+                    var e = o;
+                    throw (
+                      (e &&
+                        ("string" == typeof e && (e = new String(e)),
+                        (e._rollbarContext = n() || {}),
+                        (e._rollbarContext._wrappedSource = r.toString()),
+                        (window._rollbarWrappedError = e)),
+                      e)
+                    );
+                  }
+                }),
+                (r._rollbar_wrapped._isWrap = !0),
+                r.hasOwnProperty)
+              )
+                for (var t in r)
+                  r.hasOwnProperty(t) && (r._rollbar_wrapped[t] = r[t]);
+              return r._rollbar_wrapped;
+            } catch (e) {
+              return r;
+            }
+          });
+        for (
+          var p =
+              "log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(
+                ","
+              ),
+            f = 0;
+          f < p.length;
+          ++f
+        )
+          i.prototype[p[f]] = u(p[f]);
+        r.exports = {
+          setupShim: function (r, e) {
+            if (r) {
+              var o = e.globalAlias || "Rollbar";
+              if ("object" == typeof r[o]) return r[o];
+              (r._rollbarShims = {}), (r._rollbarWrappedError = null);
+              var l = new c(e);
+              return a(function () {
+                e.captureUncaught &&
+                  ((l._rollbarOldOnError = r.onerror),
+                  n.captureUncaughtExceptions(r, l, !0),
+                  e.wrapGlobalEventHandlers && t(r, l, !0)),
+                  e.captureUnhandledRejections &&
+                    n.captureUnhandledRejections(r, l, !0);
+                var a = e.autoInstrument;
+                return (
+                  !1 !== e.enabled &&
+                    (void 0 === a ||
+                      !0 === a ||
+                      ("object" == typeof a && a.network)) &&
+                    r.addEventListener &&
+                    (r.addEventListener("load", l.captureLoad.bind(l)),
+                    r.addEventListener(
+                      "DOMContentLoaded",
+                      l.captureDomContentLoaded.bind(l)
+                    )),
+                  (r[o] = l),
+                  l
+                );
+              })();
+            }
+          },
+          Rollbar: c,
+        };
+      },
+      function (r, e, o) {
+        "use strict";
+        function n(r, e, o, n) {
+          r._rollbarWrappedError &&
+            (n[4] || (n[4] = r._rollbarWrappedError),
+            n[5] || (n[5] = r._rollbarWrappedError._rollbarContext),
+            (r._rollbarWrappedError = null));
+          var t = e.handleUncaughtException.apply(e, n);
+          o && o.apply(r, n),
+            "anonymous" === t && (e.anonymousErrorsPending += 1);
+        }
+        r.exports = {
+          captureUncaughtExceptions: function (r, e, o) {
+            if (r) {
+              var t;
+              if ("function" == typeof e._rollbarOldOnError)
+                t = e._rollbarOldOnError;
+              else if (r.onerror) {
+                for (t = r.onerror; t._rollbarOldOnError; )
+                  t = t._rollbarOldOnError;
+                e._rollbarOldOnError = t;
+              }
+              e.handleAnonymousErrors();
+              var a = function () {
+                var o = Array.prototype.slice.call(arguments, 0);
+                n(r, e, t, o);
+              };
+              o && (a._rollbarOldOnError = t), (r.onerror = a);
+            }
+          },
+          captureUnhandledRejections: function (r, e, o) {
+            if (r) {
+              "function" == typeof r._rollbarURH &&
+                r._rollbarURH.belongsToShim &&
+                r.removeEventListener("unhandledrejection", r._rollbarURH);
+              var n = function (r) {
+                var o, n, t;
+                try {
+                  o = r.reason;
+                } catch (r) {
+                  o = void 0;
+                }
+                try {
+                  n = r.promise;
+                } catch (r) {
+                  n = "[unhandledrejection] error getting `promise` from event";
+                }
+                try {
+                  (t = r.detail), !o && t && ((o = t.reason), (n = t.promise));
+                } catch (r) {}
+                o ||
+                  (o =
+                    "[unhandledrejection] error getting `reason` from event"),
+                  e &&
+                    e.handleUnhandledRejection &&
+                    e.handleUnhandledRejection(o, n);
+              };
+              (n.belongsToShim = o),
+                (r._rollbarURH = n),
+                r.addEventListener("unhandledrejection", n);
+            }
+          },
+        };
+      },
+      function (r, e, o) {
+        "use strict";
+        function n(r, e, o) {
+          if (e.hasOwnProperty && e.hasOwnProperty("addEventListener")) {
+            for (
+              var n = e.addEventListener;
+              n._rollbarOldAdd && n.belongsToShim;
+
+            )
+              n = n._rollbarOldAdd;
+            var t = function (e, o, t) {
+              n.call(this, e, r.wrap(o), t);
+            };
+            (t._rollbarOldAdd = n),
+              (t.belongsToShim = o),
+              (e.addEventListener = t);
+            for (
+              var a = e.removeEventListener;
+              a._rollbarOldRemove && a.belongsToShim;
+
+            )
+              a = a._rollbarOldRemove;
+            var l = function (r, e, o) {
+              a.call(this, r, (e && e._rollbar_wrapped) || e, o);
+            };
+            (l._rollbarOldRemove = a),
+              (l.belongsToShim = o),
+              (e.removeEventListener = l);
+          }
+        }
+        r.exports = function (r, e, o) {
+          if (r) {
+            var t,
+              a,
+              l =
+                "EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(
+                  ","
+                );
+            for (t = 0; t < l.length; ++t)
+              r[(a = l[t])] && r[a].prototype && n(e, r[a].prototype, o);
+          }
+        };
+      },
+      function (r, e, o) {
+        "use strict";
+        function n(r, e) {
+          (this.impl = r(e, this)),
+            (this.options = e),
+            (function (r) {
+              for (
+                var e = function (r) {
+                    return function () {
+                      var e = Array.prototype.slice.call(arguments, 0);
+                      if (this.impl[r]) return this.impl[r].apply(this.impl, e);
+                    };
+                  },
+                  o =
+                    "log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(
+                      ","
+                    ),
+                  n = 0;
+                n < o.length;
+                n++
+              )
+                r[o[n]] = e(o[n]);
+            })(n.prototype);
+        }
+        (n.prototype._swapAndProcessMessages = function (r, e) {
+          var o, n, t;
+          for (this.impl = r(this.options); (o = e.shift()); )
+            (n = o.method),
+              (t = o.args),
+              this[n] &&
+                "function" == typeof this[n] &&
+                ("captureDomContentLoaded" === n || "captureLoad" === n
+                  ? this[n].apply(this, [t[0], o.ts])
+                  : this[n].apply(this, t));
+          return this;
+        }),
+          (r.exports = n);
+      },
+      function (r, e, o) {
+        "use strict";
+        r.exports = function (r) {
+          return function (e) {
+            if (!e && !window._rollbarInitialized) {
+              for (
+                var o,
+                  n,
+                  t = (r = r || {}).globalAlias || "Rollbar",
+                  a = window.rollbar,
+                  l = function (r) {
+                    return new a(r);
+                  },
+                  i = 0;
+                (o = window._rollbarShims[i++]);
+
+              )
+                n || (n = o.handler),
+                  o.handler._swapAndProcessMessages(l, o.messages);
+              (window[t] = n), (window._rollbarInitialized = !0);
+            }
+          };
+        };
+      },
+    ]);
+    // End Rollbar Snippet
+
+    // window.onerror("TestError: Hello Ninja Dashboard", window.location.href);
+  </script>
+  <!-- end Rollbar -->
+
+  <!-- start Mixpanel -->
+  <script type="text/javascript">
+    (function (e, a) {
+      if (!a.__SV) {
+        var b = window;
+        try {
+          var c,
+            l,
+            i,
+            j = b.location,
+            g = j.hash;
+          c = function (a, b) {
+            return (l = a.match(RegExp(b + "=([^&]*)"))) ? l[1] : null;
+          };
+          g &&
+            c(g, "state") &&
+            ((i = JSON.parse(decodeURIComponent(c(g, "state")))),
+            "mpeditor" === i.action &&
+              (b.sessionStorage.setItem("_mpcehash", g),
+              history.replaceState(
+                i.desiredHash || "",
+                e.title,
+                j.pathname + j.search
+              )));
+        } catch (m) {}
+        var k, h;
+        window.mixpanel = a;
+        a._i = [];
+        a.init = function (b, c, f) {
+          function e(b, a) {
+            var c = a.split(".");
+            2 == c.length && ((b = b[c[0]]), (a = c[1]));
+            b[a] = function () {
+              b.push([a].concat(Array.prototype.slice.call(arguments, 0)));
+            };
+          }
+          var d = a;
+          "undefined" !== typeof f ? (d = a[f] = []) : (f = "mixpanel");
+          d.people = d.people || [];
+          d.toString = function (b) {
+            var a = "mixpanel";
+            "mixpanel" !== f && (a += "." + f);
+            b || (a += " (stub)");
+            return a;
+          };
+          d.people.toString = function () {
+            return d.toString(1) + ".people (stub)";
+          };
+          k =
+            "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(
+              " "
+            );
+          for (h = 0; h < k.length; h++) e(d, k[h]);
+          a._i.push([b, c, f]);
+        };
+        a.__SV = 1.2;
+        b = e.createElement("script");
+        b.type = "text/javascript";
+        b.async = !0;
+        b.src =
+          "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+            ? MIXPANEL_CUSTOM_LIB_URL
+            : "file:" === e.location.protocol &&
+              "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+            ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+            : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+        c = e.getElementsByTagName("script")[0];
+        c.parentNode.insertBefore(b, c);
+      }
+    })(document, window.mixpanel || []);
+
+    mixpanel.init("be636828dad51bd56fbfb1e20bbddc37");
+  </script>
+  <!-- end Mixpanel -->
+
+  <body cz-shortcut-listen="true">
+    <div class="container-fluid">
+      <input
+        type="hidden"
+        id="_lms_analytics_title"
+        value="Certificates/verify"
+      />
+      <input
+        type="hidden"
+        id="_lms_analytics_params_json"
+        value='{"controller":"certificates","action":"verify","username":"VBFYBQGB"}'
+      />
+      <input type="hidden" id="_lms_user_id" value="" />
+      <input type="hidden" id="_lms_user_email" value="" />
+      <input type="hidden" id="_lms_user_name" value="" />
+      <input
+        type="hidden"
+        id="prod_asset_cloudfront_url"
+        value="https://d9jmtjs5r4cgq.cloudfront.net"
+      />
+      <input type="hidden" id="current_env" value="production" />
+
+      <style type="text/css">
+        .d3 {
+          background-image: url("https://d9jmtjs5r4cgq.cloudfront.net/complementary-certificate-image/bg.svg") !important;
+        }
+
+        .new-certificate .d3 {
+          background-image: url("https://d9jmtjs5r4cgq.cloudfront.net/complementary-certificate-image/bg2.png") !important;
+        }
+      </style>
+
+      <input name="user_id" id="user_id" type="hidden" value="7241075" />
+      <input
+        name="page_name"
+        id="page_name"
+        type="hidden"
+        value="public complementary course certificate view"
+      />
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid certificate-container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img
+                src="https://d9jmtjs5r4cgq.cloudfront.net/images/branding/greatlearning-brand-v1-2.svg"
+                alt="Greatlearning"
+              />
+            </a>
+          </div>
+
+          <div class="page-title hidden-xs">
+            <h4 class="m-0 p-0">Course Certificate</h4>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="career-support-navbar-collapse"
+          >
+            <ul class="nav navbar-nav navbar-right">
+              <li id="jobs_tab" class="active"></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="nav-space"></div>
+      <div
+        style="
+          background-image: url(https://dq0un14k3iie7.cloudfront.net/assets/certificate_bg_img-dd1871eb8618ee42366fe0cbc804a080557b8453fc8267e4a09a4b4f6029d47b.jpg);
+          padding-top: 80px;
+        "
+      >
+        <section
+          class="container body-content certificate_view"
+          style="margin-bottom: 2.5rem; margin-right: 0"
+        >
+          <div class="col-xs-12 col-md-9 col-lg-9 col-pad-mob">
+            <div class="certificate-card">
+              <div class="certificate-img">
+                <img class="img-responsive" src="./image.png" />
+              </div>
+              <p class="certificate-text">
+                The certificate above verifies that Piyush Sinha has
+                successfully completed the course
+                <a
+                  class="course-link"
+                  href="#?utm_source_page=public_certificate_view&amp;utm_source_cta=course_name"
+                >
+                  React JS Tutorial
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="message" style="margin: auto"></div>
+    </div>
+  </body>
+</html>
